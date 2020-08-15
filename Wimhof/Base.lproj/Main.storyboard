@@ -16,10 +16,10 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="PAZ-nS-nNf" kind="relationship" relationship="viewControllers" id="QcS-bf-7eK"/>
-                        <segue destination="l6L-bl-2hr" kind="relationship" relationship="viewControllers" id="Acx-XR-zVg"/>
-                        <segue destination="iFH-t8-adz" kind="relationship" relationship="viewControllers" id="ilI-U8-fMp"/>
-                        <segue destination="hHw-eJ-1ja" kind="relationship" relationship="viewControllers" id="L8G-IR-3ZK"/>
+                        <segue destination="PAZ-nS-nNf" kind="relationship" relationship="viewControllers" id="Cbq-7h-Wrm"/>
+                        <segue destination="l6L-bl-2hr" kind="relationship" relationship="viewControllers" id="w8V-GS-YwU"/>
+                        <segue destination="4SI-hP-A30" kind="relationship" relationship="viewControllers" id="Jqv-aK-H92"/>
+                        <segue destination="hHw-eJ-1ja" kind="relationship" relationship="viewControllers" id="cSH-UR-9fb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dFg-JI-G3O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -36,13 +36,13 @@
             </objects>
             <point key="canvasLocation" x="-2385" y="108"/>
         </scene>
-        <!--Timer-->
-        <scene sceneID="2cV-WT-5rr">
+        <!--TimeCounter-->
+        <scene sceneID="S6Y-cc-stI">
             <objects>
-                <viewControllerPlaceholder storyboardName="Timer" id="iFH-t8-adz" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="TIMER" image="timer" id="0Ws-xA-HhC"/>
+                <viewControllerPlaceholder storyboardName="TimeCounter" id="4SI-hP-A30" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="TIMER" image="timer" id="7VR-kj-rCl"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yYl-CV-s8i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tfL-pU-NKx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2169" y="108"/>
         </scene>

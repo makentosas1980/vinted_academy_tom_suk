@@ -25,20 +25,21 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Instruction" id="lqJ-un-i3e" customClass="InstructionCell" customModule="Wimhof" customModuleProvider="target">
-                                <rect key="frame" x="15" y="10" width="290" height="320"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Itd-h9-Xoy">
-                                    <rect key="frame" x="0.0" y="0.0" width="290" height="320"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="10" y="10" width="300" height="280"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="noV-Xa-vyt">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="280"/>
+                                    <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S9q-dP-yNt">
-                                            <rect key="frame" x="0.0" y="0.0" width="290" height="200"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="200"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="200" id="hpi-Vr-Qyt"/>
+                                                <constraint firstAttribute="width" secondItem="S9q-dP-yNt" secondAttribute="height" multiplier="3:2" id="pJw-q3-y8V"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdT-he-v6P">
-                                            <rect key="frame" x="0.0" y="234" width="290" height="20"/>
+                                            <rect key="frame" x="0.0" y="234" width="300" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20" id="sLC-4L-M3D"/>
                                             </constraints>
@@ -47,7 +48,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thV-CG-wK9">
-                                            <rect key="frame" x="0.0" y="210" width="290" height="24"/>
+                                            <rect key="frame" x="0.0" y="210" width="300" height="24"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="24" id="iV0-v8-lfN"/>
                                             </constraints>
@@ -57,20 +58,20 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="thV-CG-wK9" firstAttribute="leading" secondItem="RKM-4f-u8n" secondAttribute="leading" id="HvW-CU-IR5"/>
-                                        <constraint firstItem="S9q-dP-yNt" firstAttribute="leading" secondItem="RKM-4f-u8n" secondAttribute="leading" id="IGm-tb-mqi"/>
-                                        <constraint firstItem="S9q-dP-yNt" firstAttribute="top" secondItem="RKM-4f-u8n" secondAttribute="top" id="QyM-Om-DFR"/>
+                                        <constraint firstItem="thV-CG-wK9" firstAttribute="leading" secondItem="noV-Xa-vyt" secondAttribute="leading" id="HvW-CU-IR5"/>
+                                        <constraint firstItem="S9q-dP-yNt" firstAttribute="leading" secondItem="noV-Xa-vyt" secondAttribute="leading" id="IGm-tb-mqi"/>
+                                        <constraint firstItem="S9q-dP-yNt" firstAttribute="top" secondItem="noV-Xa-vyt" secondAttribute="top" id="QyM-Om-DFR"/>
                                         <constraint firstItem="rdT-he-v6P" firstAttribute="top" secondItem="thV-CG-wK9" secondAttribute="bottom" id="Y4Y-93-8o6"/>
-                                        <constraint firstItem="S9q-dP-yNt" firstAttribute="trailing" secondItem="RKM-4f-u8n" secondAttribute="trailing" id="fL9-i1-zGY"/>
-                                        <constraint firstItem="RKM-4f-u8n" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="rdT-he-v6P" secondAttribute="trailing" id="gXF-fx-a6h"/>
-                                        <constraint firstItem="thV-CG-wK9" firstAttribute="trailing" secondItem="RKM-4f-u8n" secondAttribute="trailing" id="nc5-6w-rKn"/>
-                                        <constraint firstItem="rdT-he-v6P" firstAttribute="leading" relation="lessThanOrEqual" secondItem="RKM-4f-u8n" secondAttribute="leading" id="oMp-ML-wG2"/>
+                                        <constraint firstItem="S9q-dP-yNt" firstAttribute="trailing" secondItem="noV-Xa-vyt" secondAttribute="trailing" id="fL9-i1-zGY"/>
+                                        <constraint firstAttribute="trailing" secondItem="rdT-he-v6P" secondAttribute="trailing" id="gXF-fx-a6h"/>
+                                        <constraint firstItem="thV-CG-wK9" firstAttribute="trailing" secondItem="noV-Xa-vyt" secondAttribute="trailing" id="nc5-6w-rKn"/>
+                                        <constraint firstItem="rdT-he-v6P" firstAttribute="leading" secondItem="noV-Xa-vyt" secondAttribute="leading" id="oMp-ML-wG2"/>
                                         <constraint firstItem="thV-CG-wK9" firstAttribute="top" secondItem="S9q-dP-yNt" secondAttribute="bottom" constant="10" id="xk1-qS-Te5"/>
                                     </constraints>
-                                    <viewLayoutGuide key="safeArea" id="RKM-4f-u8n"/>
+                                    <viewLayoutGuide key="safeArea" id="1gA-De-i3Q"/>
                                 </collectionViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <size key="customSize" width="290" height="320"/>
+                                <size key="customSize" width="300" height="280"/>
                                 <connections>
                                     <outlet property="content" destination="rdT-he-v6P" id="Kcz-SE-Oax"/>
                                     <outlet property="imageView" destination="S9q-dP-yNt" id="HNi-BC-sEd"/>

@@ -10,7 +10,6 @@
 		511FAE2624E1660400DE1DD4 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511FAE2524E1660400DE1DD4 /* TimerViewController.swift */; };
 		511FAE2E24E40E6E00DE1DD4 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511FAE2D24E40E6E00DE1DD4 /* ResultsViewController.swift */; };
 		511FAE3024E5039000DE1DD4 /* E-learning.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511FAE2F24E5039000DE1DD4 /* E-learning.storyboard */; };
-		511FAE3324E5044000DE1DD4 /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511FAE3224E5044000DE1DD4 /* Timer.storyboard */; };
 		512F567024E5592E0058DDFE /* ResultDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F566F24E5592E0058DDFE /* ResultDetailViewController.swift */; };
 		5160DAC024E0F8DB009F1344 /* ElearningCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5160DABF24E0F8DB009F1344 /* ElearningCollectionViewController.swift */; };
 		5160DACA24E1077B009F1344 /* Instruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5160DAC924E1077B009F1344 /* Instruction.swift */; };
@@ -24,6 +23,7 @@
 		51B7D93D24D323BC004CF51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B7D93C24D323BC004CF51F /* Assets.xcassets */; };
 		51B7D94024D323BC004CF51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51B7D93E24D323BC004CF51F /* LaunchScreen.storyboard */; };
 		51B7D94C24D3F14B004CF51F /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B7D94B24D3F14B004CF51F /* ExercisesViewController.swift */; };
+		51D6162824E7DE2300E2F43B /* TimeCounter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D6162724E7DE2300E2F43B /* TimeCounter.storyboard */; };
 		51F468F824E5281600E35A9B /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F468F724E5281600E35A9B /* Results.storyboard */; };
 		51F468FA24E529A500E35A9B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F468F924E529A500E35A9B /* Home.storyboard */; };
 /* End PBXBuildFile section */
@@ -32,7 +32,6 @@
 		511FAE2524E1660400DE1DD4 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		511FAE2D24E40E6E00DE1DD4 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		511FAE2F24E5039000DE1DD4 /* E-learning.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "E-learning.storyboard"; sourceTree = "<group>"; };
-		511FAE3224E5044000DE1DD4 /* Timer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Timer.storyboard; sourceTree = SOURCE_ROOT; };
 		512F566F24E5592E0058DDFE /* ResultDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDetailViewController.swift; sourceTree = "<group>"; };
 		5160DABF24E0F8DB009F1344 /* ElearningCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElearningCollectionViewController.swift; sourceTree = "<group>"; };
 		5160DAC924E1077B009F1344 /* Instruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instruction.swift; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		51B7D93F24D323BC004CF51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51B7D94124D323BC004CF51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51B7D94B24D3F14B004CF51F /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		51D6162724E7DE2300E2F43B /* TimeCounter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TimeCounter.storyboard; sourceTree = "<group>"; };
 		51F468F724E5281600E35A9B /* Results.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Results.storyboard; sourceTree = "<group>"; };
 		51F468F924E529A500E35A9B /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,8 +66,8 @@
 		511FAE3124E503BC00DE1DD4 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				511FAE3224E5044000DE1DD4 /* Timer.storyboard */,
 				511FAE2F24E5039000DE1DD4 /* E-learning.storyboard */,
+				51D6162724E7DE2300E2F43B /* TimeCounter.storyboard */,
 				51F468F724E5281600E35A9B /* Results.storyboard */,
 				51F468F924E529A500E35A9B /* Home.storyboard */,
 			);
@@ -173,12 +173,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				51F468FA24E529A500E35A9B /* Home.storyboard in Resources */,
-				511FAE3324E5044000DE1DD4 /* Timer.storyboard in Resources */,
 				51B7D94024D323BC004CF51F /* LaunchScreen.storyboard in Resources */,
 				51B7D93D24D323BC004CF51F /* Assets.xcassets in Resources */,
 				51F468F824E5281600E35A9B /* Results.storyboard in Resources */,
 				511FAE3024E5039000DE1DD4 /* E-learning.storyboard in Resources */,
 				51B7D93B24D323BA004CF51F /* Main.storyboard in Resources */,
+				51D6162824E7DE2300E2F43B /* TimeCounter.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
